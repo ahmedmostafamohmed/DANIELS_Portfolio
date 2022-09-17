@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    color: #343434;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6; 
+}
+.container {
+    width: 90%;
+}
+.background-gray {
+    background: #f7f7f7;
+}
+p{
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.title h2 {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform:capitalize;
+    background-image: url("../img/dots.png");
+    max-width: 280px;
+}
+/* -------------------------------head-section----------------------------- */
+
+.head-bg {
+    background-image: url(../img/bg.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.bg-layer {
+    background-color: rgba(0, 0, 0, 0.63);
+}
+.bg-nav-color {
+    padding: 20px 0;
+}
+.navbar-brand:hover {
+    color: rgb(219, 213, 213) ;
+}
+.active1 {
+    color: rgb(219, 213, 213) ;
+    border-bottom: 1px solid white;   
+}
+.nav-logo {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #fff ;
+}
+.nav-item-a {
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s;
+    letter-spacing: 0.4px;
+    color: #fff;
+    padding-top: 20px;
+}
+.nav-item:hover .text-link:hover{
+    color: #fff;
+    width: 100%;
+}
+/*  Content style */
+.name-head{
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+.animation-text1 h2 {
+    font-size: 3rem;
+    font-weight: 200;
+}
+.animation-text1 h2::after {
+    content: "";
+    animation: animationText 7s infinite ;
+    margin: 0px;
+    padding: 0px;
+}
+@keyframes animationText{
+    0%{
+        content: "D|";
+    }
+    1.5%{
+        content: "De|";
+    }
+    3%{
+        content: "Dev|";
+    }
+    4.5%{
+        content: "Deve|";
+    }
+    6%{
+        content: "Devel|";
+    }
+    7.5%{
+        
+        content: "Develo|";
+    }
+    9%{
+        content: "Develop|";
+    }
+    10.5%{
+        content: "Develope|";
+    }
+    12%{
+        content: "Developer|";
+    }
+    /* ---------------------- */
+    13.5%{
+        content: "Develope|";
+    }
+    15%{
+        content: "Develop|";
+    }
+    16.5%{
+        
+        content: "Develo|";
+    }
+    18%{
+        
+        content: "Devel|";
+    }
+    19.5%{
+        content: "Deve|";
+       
+    }
+    21%{
+        content: "Dev|";
+    }
+    22.5%{
+        content: "De|";
+    }
+    24%{
+        content: "D|";
+    }
+    /* ------------------------------------------------------------ */
+    25.5%{
+        content: "D|";
+    }
+    27%{
+        content: "De|";
+    }
+    28.5%{
+        content: "Des|";
+    }
+    30%{
+        content: "Desi|";
+    }
+    32%{
+        content: "Desig|";
+    }
+    34%{
+        
+        content: "Design|";
+    }
+    36%{
+        content: "Designe|";
+    }
+    38%{
+        content: "Designer|";
+    }
+    /* ---------------------- */
+    40%{
+        content: "Designe|";
+    }
+    42%{
+        content: "Design|";
+    }
+    44%{
+        content: "Desig|";
+    }
+    46%{
+        
+        content: "Desi|";
+    }
+    48%{
+        content: "Des|";
+    }
+    50%{
+        content: "De|"; 
+    }
+    52%{
+        content: "D|";
+    }
+
+    /* ---------------------------------------- */
+    54%{
+        content: "L|";
+    }
+    56%{
+        content: "La|";
+    }
+    58%{
+        content: "Lar|";
+    }
+    60%{
+        content: "Larr|";
+    }
+    62%{
+        content: "Larry|";
+    }
+    64%{
+        content: "Larry D|";
+    }
+    66%{
+        content: "Larry Da|";
+    }
+    68%{
+        content: "Larry Dan|";
+    }
+    70%{
+        content: "Larry Dani|";
+    }
+    72%{
+        content: "Larry Dania|";
+    }
+    74%{
+        content: "Larry Danial|";
+    }
+    76%{
+        content: "Larry Danials|";
+    }
+   /* ----------------- */
+    78%{
+        content: "Larry Danial|";
+    }
+    80%{
+        content: "Larry Dania|";
+    }
+    82%{
+        content: "Larry Dani|";
+    }
+    84%{
+        content: "Larry Dan|";
+    }
+    86%{
+        content: "Larry Da|";
+    }
+    88%{
+        content: "Larry D|";
+    }
+    90%{
+        content: "Larry |";
+    }
+    92%{
+        content: "Larry|";
+    }
+    94%{
+        content: "Larr|";
+    }
+    96%{
+        content: "Lar|";
+    }
+    98%{
+        content: "La|";
+    }
+    100%{
+        content: "L|";
+    }
+
+
+    /* ---------Home icons Social -------- */
+}
+.Get-in-Touch-icons {
+    color: #007aff;
+}
+
+
+.home-content-icons{
+    background-color: rgba(0, 0, 0, 0.527);
+    padding:10px;
+    border-radius: 50%;
+    font-size: 15px;
+    color:#fff;
+}
+/* -------------------------------about-section----------------------------- */
+.personal-info-image-border {
+    background-image: url("../img/dots.png");
+}
+.personal-info-image-border img {
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+    border-radius: 5px;
+}
+
+/* -----About-content-style----- */
+.About-title{
+    font-weight: 800;
+    margin-bottom: 5px;
+    
+}
+.About-p {
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+.about-prgress-height{
+    height: 100%;
+    top : 0;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+}
+/* -----About-content-button-style----- */
+.about-btn , .about-btn2:hover  {
+    background-color: #1c1c1c;
+    color: #fff;
+    font-size: 15px;
+}
+.about-btn2 , .about-btn:hover  {
+    background-color:c #fff;
+    color: #1c1c1c;
+    font-size: 15px;
+    border: 1px solid  #1c1c1c;
+}
+
+/* -------------------------------service-section----------------------------- */
+.services-icon{
+    padding: 30px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 30px;
+    margin: auto;
+    transition: all 0.5s;   
+}
+.services-items {
+    box-shadow: 0px 10px 30px -8px rgb(0 0 0 / 10%);
+}
+.iconBoot {
+    font-size: 25px; 
+    border-radius: 50%; 
+    padding:20px;
+    background-color: #f4f4f4;;
+    transition: all 0.5s;
+}
+.icon-hover:hover .services-icon , .icon-hover:hover  .iconBoot{
+    background-color: #1c1c1c;
+    color: #fff;
+}
+.services-card-title{
+    font-weight: 800;
+    font-size: 18px;
+}
+.services-card-p {
+    font-size: 14px;
+    word-spacing: 2px;
+}
+/* -------------------------------PORTFOLIO-section----------------------------- */
+.nav-tabs li button {
+    color: #1c1c1c;
+    font-weight: 900;
+    font-size: 15px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-bottom: 2px solid #000;
+    border-top: 0px ;
+    border-left: 0px ;
+    border-right: 0px ;
+    color: #1c1c1c;
+}
+.nav-tabs .nav-link:hover , .nav-tabs .nav-link.active:hover {
+    border: 0px ;
+    color: #1c1c1c;
+}
+.Our-Portfolio-image{
+    position: relative;
+}
+.portfoilo-overlay {
+    background-color: rgba(255, 255, 255, 0.897);
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    opacity:0;
+    transition: all 1s;
+    border: #c1c1c1 5px solid;
+    
+}
+.Our-Portfolio-image:hover .portfoilo-overlay {
+    opacity: 1;
+    top: 0px;
+}
+.portfoilo-overlay-icons{
+    background-color: rgba(0, 0, 0);
+    padding:8px;
+    border-radius: 50%;
+    font-size: 12px;
+    color:#fff;
+    border: 1px solid rgba(0, 0, 0);
+}
+.portfoilo-overlay-icons:hover {
+    color: rgba(0, 0, 0);
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0);
+}
+/* -------------------------------carouse-section----------------------------- */
+.carouse-p {
+    font-size: 18;
+    color: #f5f5f5;
+}
+.carouse-btn2 {
+    color: #c1c1c1;
+    font-size: 10px;
+}
+.carouse-btn1 {
+    color:#343434;
+    font-size: 10px;
+}
+.carousel-indicators [data-bs-target]  {
+    background-color:#343434;
+}
+/* -------------------------------rate-section----------------------------- */
+
+.rate-icon{
+    padding: 15px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 30px;
+    margin: auto;
+    border:8px solid rgba(255, 255, 255, 0.781);
+    color: #fff;
+    
+}
+.rate-iconboot , .footer-iconboot {
+    border:8px solid rgba(255, 255, 255, 0.781);
+    font-size: 30px; 
+    border-radius: 50%; 
+    padding: 10px 15px;
+    transition: all 0.5s;
+}
+.rate .card-title {
+    font-weight: 900;
+}
+.rate p {
+    font-size: 15px;
+    font-weight: 600;
+}
+/* -------------------------------BLOG-section----------------------------- */
+.image-BLOG img {
+    transition: all 1s;
+}
+.image-BLOG img:hover {
+    scale: 1.5;
+}
+.blog-content h6 a {
+    font-size: 12px;
+}
+.blog-content span a {
+    color: #748182;
+    font-size: 14px;
+    border-bottom: 2px solid #000;
+}
+.carousel-indicators [data-bs-target] {
+    width:10px;
+    height: 10px;
+    border-radius: 50%;
+}
+/* -------------------------------Footer-section----------------------------- */
+.footer-icon-BG {
+    padding: 15px;
+}
+.footer-iconboot {
+    border:none;
+    font-size: 25px;
+    border-radius: 50%; 
+    background-color: #f4f4f4;;
+    transition: all 0.5s; 
+}
+.footer-iconboot:hover{
+    background-color: #1c1c1c;
+    color: #fff;
+    border:none;
+}
+.form-control{
+    background-color: #f4f4f4;
+    border: none;
+}
+.bg-Copyright {
+    padding: 25px 0px;
+    background: #1c1c1c;
+
+}
+.footer-cntent {
+    color: #748182;
+    font-size: 13px;
+}
+/* ------------------------------Media Query---------------------------------------- */
+@media screen and (max-width:540px) {
+    .name-head{
+        font-size: 3rem;
+    }
+    .animation-text1 h2 {
+        font-size: 2rem;
+        font-weight: 200;
+    }
+    .container {
+        width: 95%;
+    }
+
+    .personal-info-image-border img {
+        width:90%;
+    }
+
+
+    .carouse-btn1{
+        font-size: 1rem;
+    }
+
+}
